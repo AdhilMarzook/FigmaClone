@@ -1,10 +1,17 @@
-import { Room } from "./Room";
-import { CollaborativeApp } from "./CollaborativeApp";
+"use client";
+import Live from "@/components/Live";
+import NavBar from "@/components/NavBar";
 
 export default function Page() {
   return (
-    <Room>
-      <CollaborativeApp />
-    </Room>
+    <main className=" h-screen overflow-hidden ">
+      
+      <NavBar />
+
+      <section className="flex h-full flex-row">
+      <Live />
+      </section>
+      
+      </main>
   );
 }
