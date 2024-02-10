@@ -1,2 +1,0 @@
-# FigmaClone
-Figma clone
